@@ -19,6 +19,7 @@ using (var scope = app.Services.CreateScope())
        System.Threading.Thread.Sleep(10000);
        var context = services.GetRequiredService<SchoolContext>();
        var created = context.Database.EnsureCreated();
+       Console.WriteLine("ghp_nc7e5nvZxMPo0poJUNAIDo8n5fGxHL4ZdEEn");
 
    }
    catch (Exception ex)
