@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/runtime:6.0
 COPY . ./src
 WORKDIR /src
 RUN dotnet build -o /app
